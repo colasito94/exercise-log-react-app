@@ -1,0 +1,364 @@
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "deadlifts",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T175523.201.json
+
+###
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "barbell curls",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T175510.201.json
+
+###
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "squat",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T175503.201.json
+
+###
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "dead lift",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T175454.201.json
+
+###
+
+DELETE http://localhost:3000/exercises/61a27f835b3cf47b77b126ea
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T173017.500.json
+
+###
+
+DELETE http://localhost:3000/exercises/61a27f835b3cf47b77b126ea
+Content-Type: application/json
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T172611.400.html
+
+###
+
+DELETE http://localhost:3000/exercises/61a27f835b3cf47b77b126ea
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T172555.500.json
+
+###
+
+GET http://localhost:3000/exercises
+
+<> 2021-11-27T172541.200.json
+
+###
+
+DELETE http://localhost:3000/exercises/61a27f835b3cf47b77b126ea
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T172452.500.json
+
+###
+
+DELETE http://localhost:3000/exercises/_61a27f835b3cf47b77b126ea
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T172315.500.json
+
+###
+
+DELETE http://localhost:3000/exercises/61a27f835b3cf47b77b126ea
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T172250.500.json
+
+###
+
+GET http://localhost:3000/exercises
+
+<> 2021-11-27T135730.200.json
+
+###
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T135707-1.201.json
+
+###
+
+GET http://localhost:3000/exercises
+
+<> 2021-11-27T135707.200.json
+
+###
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T135707.201.json
+
+###
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T135407.201.json
+
+###
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T135311.201.json
+
+###
+
+GET http://localhost:3000/exercises
+
+<> 2021-11-27T135259.200.json
+
+###
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press",
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021",
+}
+
+<> 2021-11-27T135259.400.html
+
+###
+
+GET http://localhost:3000/exercises
+
+<> 2021-11-27T135128.200.json
+
+###
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press"
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021",
+}
+
+<> 2021-11-27T135128.400.html
+
+###
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press"
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T135104.400.html
+
+###
+
+GET http://localhost:3000/exercises
+
+<> 2021-11-27T135050.200.json
+
+###
+
+GET http://localhost:3000/exercises
+
+<> 2021-11-27T134919.200.json
+
+###
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press"
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T134919.400.html
+
+###
+
+GET http://localhost:3000/exercises
+
+<> 2021-11-27T134624.200.json
+
+###
+
+POST http://localhost:3000/exercises
+Content-Type: application/json
+
+{
+  "name": "bench press"
+  "reps": 5,
+  "weight": 185,
+  "unit": "lbs",
+  "date": "11-23-2021"
+}
+
+<> 2021-11-27T134624.400.html
+
+###
+
+GET http://localhost:3000/exercises
+
+<> 2021-11-27T134242.200.json
+
+###
+
+GET http://localhost:3000
+
+<> 2021-11-27T134218.404.html
+
+###
+
+GET http://localhost:3000
+
+<> 2021-11-27T134209.404.html
+
+###
+
