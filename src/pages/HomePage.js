@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import ExerciseList from '../HomePageComponents/ExerciseList'
-import { Link } from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 
 function HomePage() {
     // Displays all exercises in the Home Page
