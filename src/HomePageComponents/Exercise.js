@@ -1,8 +1,7 @@
 import React from 'react';
 import { AiOutlineEdit, AiOutlineDelete } from 'react-icons/ai';
-import {Link} from "react-router-dom";
 
-function Exercise({ exercise, onDelete }) {
+function Exercise({ exercise, onDelete, onEdit}) {
     // Receives item parameter which is a JSON object corresponding to an element of the
     // array in data/items.js
     return (
@@ -13,9 +12,9 @@ function Exercise({ exercise, onDelete }) {
                 <td> {exercise.weight} </td>
                 <td> {exercise.unit} </td>
                 <td> {exercise.date} </td>
-                <Link class="link" to="/EditExercise">
-                    <AiOutlineEdit />
-                </Link>
+                    {/* We can access the id since the exercise variable is a Javascript object with the properties*/}
+
+                <td> <AiOutlineEdit onClick={ () => onEdit(exercise)} /> </td>
                 <td> <AiOutlineDelete onClick={ () => onDelete(exercise._id)} />  </td>
             </tr>
         </>

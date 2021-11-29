@@ -6,13 +6,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e43fa63aecd2127be034b3fb9d4caa172275714" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f5eb33cef054d105f4e2f010c28f7705ad2da41" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4db683ff575e26ae883644a0a2f570e5dc9ff483" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/770c474024d051312529cd4276ae645057836df5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2a38bb48519b990aec432b5f888ac6d3431e276" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed96664e8bff9d76dd852bbd4fd6e460b4ebe9f3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePageComponents/Exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePageComponents/Exercise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePageComponents/ExerciseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePageComponents/ExerciseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePageComponents/ExerciseRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePageComponents/ExerciseRow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/CreateExercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CreateExercise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/EditExercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/EditExercise.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +57,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -100,6 +107,13 @@
       <workItem from="1638053887566" duration="11000" />
       <workItem from="1638059943565" duration="1093000" />
       <workItem from="1638107465953" duration="6059000" />
+      <workItem from="1638121531068" duration="226000" />
+      <workItem from="1638121777825" duration="103000" />
+      <workItem from="1638125474325" duration="472000" />
+      <workItem from="1638125968060" duration="2391000" />
+      <workItem from="1638128369567" duration="6000" />
+      <workItem from="1638128398394" duration="4691000" />
+      <workItem from="1638133201557" duration="193000" />
     </task>
     <servers />
   </component>
@@ -117,16 +131,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/App.js</url>
-          <line>22</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

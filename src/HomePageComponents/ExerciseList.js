@@ -1,7 +1,7 @@
 import React from 'react';
 import ExerciseRow from "./ExerciseRow";
 
-function ExerciseList({ exercises, onDelete }) {
+function ExerciseList({ exercises, onDelete, onEdit }) {
     return (
         <>
             <table id="exercises">
@@ -23,7 +23,7 @@ function ExerciseList({ exercises, onDelete }) {
                 {/* Table body */}
                 <tbody>
                     {/* Use Exercise Row component for each row of the table  */}
-                    <ExerciseRow exercises={exercises} onDelete={onDelete}> </ExerciseRow>
+                    <ExerciseRow exercises={exercises} onDelete={onDelete} onEdit={onEdit}> </ExerciseRow>
                 </tbody>
             </table>
         </>

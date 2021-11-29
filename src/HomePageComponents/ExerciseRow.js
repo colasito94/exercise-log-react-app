@@ -1,7 +1,7 @@
 import React from 'react';
 import Exercise from './Exercise';
 
-function ExerciseRow({ exercises, onDelete }) {
+function ExerciseRow({ exercises, onDelete, onEdit }) {
     return (
         <>
             {/*Creates one Exercise component for each exercise entry
@@ -10,7 +10,11 @@ function ExerciseRow({ exercises, onDelete }) {
             i parameter corresponds to the index of the item value in the array
             RETURNS AN ARRAY OF ALL THE EXERCISES
             */}
-            {exercises.map((exercise, i) => <Exercise exercise={exercise} key={i} onDelete={onDelete} />)} {/*RETURNS A EXERCISE COMPONENT FOR EACH EXERCISE IN THE ARRAY*/}
+            {exercises.map((exercise, i) => <Exercise exercise={exercise}
+                                                      key={i}
+                                                      onDelete={onDelete}
+                                                      onEdit={onEdit}
+                                                      />)}
         </>
     );
 }

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Link, useNavigate} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function CreateExercise() {
     const [name, setName] = useState('');
@@ -10,6 +10,7 @@ function CreateExercise() {
 
     const navigate = useNavigate();
 
+    // Create function
     const addExercise = async () => {
         const newExercise = { name, reps, weight, unit, date };
         const response = await fetch('/exercises', {
@@ -20,12 +21,11 @@ function CreateExercise() {
             },
         });
         if(response.status === 201){
-            alert("Successfully added the movie!");
+            alert("Successfully added the exercise!");
         } else {
             alert(`Failed to add movie, status code = ${response.status}`);
         }
     };
-
 
     return (
         <>
@@ -66,7 +66,7 @@ function CreateExercise() {
                         // Event handler that calls addExercise()
                         onClick={ () => {
                             addExercise();  {/*Call state update function*/}
-                            navigate('/')
+                            navigate("/");
                         }}>
                         Submit
                     </button>
