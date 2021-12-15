@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import ExerciseList from '../HomePageComponents/ExerciseList'
+import ExerciseList from '../components/ExerciseList'
 import {Link, useNavigate} from "react-router-dom";
 
 function HomePage( { setExerciseToEdit } ) {
     // Displays all exercises in the Home Page
-    const [exercises, setExercises] = useState([]);  // useState adds React state to HomePageComponents
+    const [exercises, setExercises] = useState([]);  // useState adds React state to components
 
     const navigate = useNavigate();
 
@@ -12,7 +12,7 @@ function HomePage( { setExerciseToEdit } ) {
     const onDelete = async _id => {
         const response = await fetch(`/exercises/${_id}`, { method: 'DELETE' });
         if (response.status === 204) {
-            const getResponse = await fetch('/movies');
+            const getResponse = await fetch('/exercises');
             const exercises = await getResponse.json();
             setExercises(exercises);
         } else {

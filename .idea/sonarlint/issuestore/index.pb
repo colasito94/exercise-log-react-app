@@ -9,18 +9,22 @@ A
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 ;
 src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
-U
-%src/HomePageComponents/ExerciseRow.js,1/6/16a362f97f8ea0a5d9388aa5ec92f6224c7fdf4a
-V
-&src/HomePageComponents/ExerciseList.js,a/2/a2a38bb48519b990aec432b5f888ac6d3431e276
-R
-"src/HomePageComponents/Exercise.js,2/f/2f5eb33cef054d105f4e2f010c28f7705ad2da41
-K
-src/pages/CreateExercise.js,e/d/ed96664e8bff9d76dd852bbd4fd6e460b4ebe9f3
 I
 src/pages/EditExercise.js,7/7/770c474024d051312529cd4276ae645057836df5
+K
+src/pages/CreateExercise.js,e/d/ed96664e8bff9d76dd852bbd4fd6e460b4ebe9f3
+M
+src/components/ExerciseRow.js,4/0/40051ac4b9023ba1aa1875794d71fa8635af094b
+N
+src/components/ExerciseList.js,9/2/92a0bcbbcd738b4eb7f136032a3ee5faa45fdfc3
+J
+src/components/Exercise.js,2/6/268ead215eda31fd8dd62d560ca05f11ed96309f
 :
 
 src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
+4
+.env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
+?
+src/App.test.js,9/2/923703ced91ac38943d37930d9d27a7ebe8f01ad
 E
 src/pages/HomePage.js,4/d/4db683ff575e26ae883644a0a2f570e5dc9ff483

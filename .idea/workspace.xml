@@ -11,12 +11,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed96664e8bff9d76dd852bbd4fd6e460b4ebe9f3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePageComponents/Exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePageComponents/Exercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePageComponents/ExerciseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePageComponents/ExerciseList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomePageComponents/ExerciseRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomePageComponents/ExerciseRow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CreateExercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CreateExercise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/EditExercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/EditExercise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePageComponents/Exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Exercise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePageComponents/ExerciseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExerciseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomePageComponents/ExerciseRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExerciseRow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,11 +111,20 @@
       <workItem from="1638128369567" duration="6000" />
       <workItem from="1638128398394" duration="4691000" />
       <workItem from="1638133201557" duration="193000" />
+      <workItem from="1638153810856" duration="97000" />
+      <workItem from="1638153929216" duration="85000" />
+      <workItem from="1638729795786" duration="197000" />
+      <workItem from="1638742757666" duration="3000" />
+      <workItem from="1638742912754" duration="777000" />
+      <workItem from="1638743732885" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
