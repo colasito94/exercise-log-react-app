@@ -1,7 +1,7 @@
 import React from 'react';
 import ExerciseRow from "./ExerciseRow";
 
-function ExerciseList({ exercises, onDelete, onEdit }) {
+function ExerciseTable({ exercises, onDelete, onEdit }) {
     return (
         <>
             <table id="exercises">
@@ -23,11 +23,12 @@ function ExerciseList({ exercises, onDelete, onEdit }) {
                 {/* Table body */}
                 <tbody>
                     {/* Use Exercise Row component for each row of the table  */}
-                    <ExerciseRow exercises={exercises} onDelete={onDelete} onEdit={onEdit}> </ExerciseRow>
+                    {/*<ExerciseRow exercises={exercises} onDelete={onDelete} onEdit={onEdit}> </ExerciseRow>*/}
+                    {exercises.map((exercise, i) => <ExerciseRow exercise={exercise} onDelete={onDelete} onEdit={onEdit}/>)}
                 </tbody>
             </table>
         </>
     );
 }
 
-export default ExerciseList;
+export default ExerciseTable;

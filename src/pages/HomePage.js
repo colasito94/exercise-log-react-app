@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ExerciseList from '../components/ExerciseList'
+import ExerciseTable from '../components/ExerciseTable'
 import {Link, useNavigate} from "react-router-dom";
 
 function HomePage( { setExerciseToEdit } ) {
@@ -29,6 +29,8 @@ function HomePage( { setExerciseToEdit } ) {
     // Read/retrieve function
     const loadExercises = async () => {
         const response = await fetch('/exercises'); // fetch API calls endpoint /exercises; uses default GET method since method not specified
+
+
         const exercises_data = await response.json();
         setExercises(exercises_data);
     }
@@ -42,10 +44,10 @@ function HomePage( { setExerciseToEdit } ) {
             <h1>Sean's Exercise App</h1>
             <h2>Welcome to Sean's Exercise App.</h2>
 
-            <ExerciseList exercises={exercises}
-                          onDelete={onDelete}
-                          onEdit={onEdit}>
-            </ExerciseList>
+            <ExerciseTable exercises={exercises}
+                           onDelete={onDelete}
+                           onEdit={onEdit}>
+            </ExerciseTable>
 
             <Link class="link" to="/CreateExercise"> CreateExercise Page </Link>
         </>
